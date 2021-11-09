@@ -1,3 +1,12 @@
 .text-primary{
     color: #ffffff !important;
 }
+
+.bg-primary{
+    background-color: red !important;
+}
+
+#top-banner{
+    -webkit-mask-image: linear-gradient(red, transparent);
+    height: 260px !important;
+}
