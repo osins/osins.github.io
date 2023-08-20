@@ -1,12 +1,14 @@
 {
   "name": "osins.github.io",
+  "homepage": "https://osins.github.io/osins.github.io",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",

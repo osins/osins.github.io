@@ -12,22 +12,20 @@ export default function OsWorkExperience(props) {
     const Industry = styled(Typography)`
         padding-bottom: 10px;
         width: 100%;
-        padding-left: 20px;
     `
 
     const Text = styled(Typography)`
         display: flex;
         width: 100%;
-        padding-bottom: 20px;
-        padding-left: 20px;
+        padding-bottom: 30px;
     `
     
     return (<>
         <Grid2 container>
-            <Title variant='h7'>{props.title}</Title>
-        <Industry variant='p'>{props.industry}行业</Industry>
+            <Title variant='h7'>公司名称: {props.title}</Title>
+        <Industry variant='p'>涉及行业: {props.industry}行业</Industry>
           <Text variant='p'>
-           {props.children}
+           简单介绍: {props.children}
           </Text>
         </Grid2>
     </>)
