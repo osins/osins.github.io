@@ -21,7 +21,7 @@ export default function OsBaseItems() {
             Spring boot、Spring cloud、 Javalin、Guice、Guava、Nestjs、ReactJs、Vuejs、Angular2、Nextjs、Pixijs、Tweenjs、Nextjs、gofiber、UniApp
           </OsText>
           <OsText title='数据'>
-            MySQL、SQL SERVER、Postgre、Redis、Memcached、Sphinx、ELK
+            MySQL、SQL SERVER、PostgreSQL、Redis、Memcached、Sphinx、ELK
           </OsText>
           <OsText title='服务器/运维/工具'>
             Nginx、Docker、Docker Swarm、Docker Compose、Jenkins、SSH、 Git、GitLab、Ansible、阿里云CLI

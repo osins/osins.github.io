@@ -53,7 +53,7 @@ export default function OsProjectItems() {
 
         <OsProjectExperience
           title='信息安全评测系统'
-          method='PHP、java、Golang、H5、小程序、Pixi.js、Docker、MySQL、Redis'
+          method='PHP、java、Golang、H5、小程序、Pixi.js、Docker、MySQL、Redis、PostgreSQL'
         >
           平安保险安全意识评测系统、蔚来汽车安全意识评测系统、上汽集团安全意识评测系统
         </OsProjectExperience>
